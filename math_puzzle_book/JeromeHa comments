@@ -1,0 +1,48 @@
+(page 13)
+
+2.1 Principle of Finite Induction
+
+  comment: as a sidenote you may want to mention that finite induction still applies if statement is not true for n=1 but for some n0 (that could be 0, 1, or ...)  then it will true for all k>n0 (likewise, .
+  comment: in French "Finite Induction" translates in "par récurrence" (by recurrence).
+  
+  (page 14) Theorem 2
+  
+  comment : while the Proof (in bold) are clearly highlighted, the Theorem/statement is not, which makes the statement/proof pairing not so obvious at first sight.
+  
+  Proof#2
+  issue: since x2 is arbitrary, you need to check it "by hand":
+  
+  suggestion - add : For n=2, it is also clear that x2 = 3 < (7/4)^2
+
+  Next, assume that the statement holds for n = 1, 2, .. k-1  
+  issue: not clear this applies to k=3 ( ie 1,2,2)
+  comment: In your explanation of Finite induction, you say "whenever k€S, it must be that k+1€S"  (ie k => k+1) while you demonstrate k-1 => k
+  
+  suggestion - replace : 
+  
+        Next, assume that the statement holds for n=1 .. k  (k>=2)
+        This implies that xk <(7/4)^k  and xk-1 < (7/4)^(k-1)
+        xk+1=xk + xk-1 < ...  = (7/4)^(k+1)
+
+        This, given that the statement is true for n=1..k we have proven the statement true for the case n=k+1, and thus the satement must therefore hold true ...
+    
+    (page 17)
+    
+    2.2.2 Example 2: Missing Point in Straight Line
+    
+    As another example consider the function g(x) = ...
+    Figure 2. Limit example concerning g(x) = ...
+    
+    suggestion - be consistent with typography for g(x).
+    
+    (page 19)
+    
+    3.1.1 Exact Change
+    
+    Puzzle #2  5-cent & 8 cent coins
+    
+    comment : suggesting the answer to this puzzle is to use a formula from JJ. Sylvester is a bit frustrating ...
+    
+    suggestion - replace : the reader may want to verify that 28, 29,30,31 and 32 can all be represented as some combination of 5-cent and 8-cent coins.
+    
+    
